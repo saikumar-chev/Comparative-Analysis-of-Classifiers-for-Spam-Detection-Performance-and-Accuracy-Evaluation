@@ -1,2 +1,101 @@
-# Comparative-Analysis-of-Classifiers-for-Spam-Detection-Performance-and-Accuracy-Evaluation
-This project evaluates classifiers like Logistic Regression, Naïve Bayes, SVM, Random Forest, and KNN for spam detection. Metrics such as accuracy, precision, recall, and F1-score are analyzed. Built using Python with Scikit-learn, Pandas, and Matplotlib, it includes a Tkinter-based GUI for visualization.
+# Comparative Analysis of Classifiers for Spam Detection: Performance and Accuracy Evaluation
+
+## Overview
+This project evaluates the performance of multiple machine learning classifiers for spam detection. It utilizes a GUI-based system built with Python's Tkinter framework for dataset loading, preprocessing, training, and visualization of results.
+
+## Features
+- **Login System**: Secure access to the application.
+- **Dataset Loading**: Import CSV files with `Category` and `Message` columns.
+- **Text Preprocessing**: Tokenization, stopword removal, and feature extraction using `CountVectorizer`.
+- **Classifier Selection**: Train multiple classifiers including:
+  - Naive Bayes
+  - Support Vector Machine (SVM)
+  - Logistic Regression
+  - Random Forest
+  - K-Nearest Neighbors (KNN)
+- **Performance Metrics**:
+  - Accuracy
+  - Confusion Matrix
+  - Classification Report
+  - ROC Curve and AUC
+- **Visualization**: Compare results through bar charts, ROC curves, and heatmaps.
+
+## Prerequisites
+Make sure you have the following installed:
+- Python 3.7+
+- Required Python libraries:
+  ```bash
+  pip install pandas scikit-learn matplotlib seaborn nltk pillow
+  ```
+
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone <[repository-url](https://github.com/saikumar-chev/Comparative-Analysis-of-Classifiers-for-Spam-Detection-Performance-and-Accuracy-Evaluation/tree/03597ef3de4cb5e8d8747e657ab9281580f591c0/Project)>
+   cd <project>
+   ```
+2. Run the `temp.py` script:
+   ```bash
+   python temp.py
+   ```
+
+3. Login using the following credentials:
+   - Username: `lg3`
+   - Password: `svs`
+
+4. Load a dataset (CSV format with `Category` and `Message` columns).
+5. Select the classifiers to train and evaluate.
+6. View and analyze the results.
+
+## Dataset Requirements
+The dataset should contain:
+- **Category**: Labels as `ham` (0) or `spam` (1).
+- **Message**: Text data to classify.
+
+Example:
+| Category | Message             |
+|----------|---------------------|
+| ham      | Hello, how are you? |
+| spam     | You won $1000!      |
+
+## File Structure
+```
+.
+├── main.py                 # Main application script
+├── README.md               # Project documentation
+├── requirements.txt        # Dependencies
+├── assets/
+│   └── project.png         # Login background image
+└── datasets/
+    └── sample.csv          # Example dataset
+```
+
+## Performance Visualization
+- **Accuracy Comparison**: A bar chart showing the accuracy of each classifier.
+- **Confusion Matrix**: Heatmaps for each classifier's predictions.
+- **ROC Curve**: AUC values for classifier comparison.
+
+## Screenshots
+### Login Page:
+![Login](assets/login_screenshot.png)
+
+### Dataset Viewer:
+![Dataset](assets/dataset_viewer.png)
+
+### Results:
+![Results](assets/results_comparison.png)
+
+## Technologies Used
+- **Programming Language**: Python
+- **Libraries**:
+  - `Tkinter`: GUI development
+  - `Pandas`: Data manipulation
+  - `Scikit-learn`: Machine learning
+  - `Matplotlib` & `Seaborn`: Data visualization
+  - `NLTK`: Text preprocessing
+
+## Contributors
+- **Your Name** - [Your GitHub Profile](https://github.com/yourprofile)
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for details.
