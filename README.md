@@ -58,17 +58,9 @@ Example:
 | ham      | Hello, how are you? |
 | spam     | You won $1000!      |
 
-## File Structure
-```
-.
-├── main.py                 # Main application script
-├── README.md               # Project documentation
-├── requirements.txt        # Dependencies
-├── assets/
-│   └── project.png         # Login background image
-└── datasets/
-    └── sample.csv          # Example dataset
-```
+## Execution Flow Chart
+![image](https://github.com/user-attachments/assets/0cfe33f6-e374-4c48-b8e2-fc94434bb173)
+
 
 ## Performance Visualization
 - **Accuracy Comparison**: A bar chart showing the accuracy of each classifier.
