@@ -89,7 +89,9 @@ Example:
 **Accuracy & ROC Curve Comparision**
 ![image](https://github.com/user-attachments/assets/26bd2344-7e8c-4eef-9ff0-755da520ebb0)
 **Confusion Matrix**
-![image](https://github.com/user-attachments/assets/16fef664-ae01-4b6f-ab40-b837c58754f8) ![image](https://github.com/user-attachments/assets/c8b97eab-708f-459f-b7b1-dfcc4b0eb129) ![image](https://github.com/user-attachments/assets/f6bd96a4-3f9c-41b5-922b-f953d206d351)
+![image](https://github.com/user-attachments/assets/16fef664-ae01-4b6f-ab40-b837c58754f8) 
+![image](https://github.com/user-attachments/assets/c8b97eab-708f-459f-b7b1-dfcc4b0eb129) 
+![image](https://github.com/user-attachments/assets/f6bd96a4-3f9c-41b5-922b-f953d206d351)
 
 ## Technologies Used
 - **Programming Language**: Python
@@ -101,7 +103,7 @@ Example:
   - `NLTK`: Text preprocessing
 
 ## Contributors
-- **Your Name** - [Your GitHub Profile](https://github.com/yourprofile)
+- **Sai Kumar Chevella** - https://github.com/saikumar-chev
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
