@@ -86,13 +86,10 @@ Example:
 ![image](https://github.com/user-attachments/assets/566af064-178f-4a9b-a6a7-4438211fa6ff)
 
 ### Results:
-** Accuracy & ROC Curve Comparision **
+**Accuracy & ROC Curve Comparision**
 ![image](https://github.com/user-attachments/assets/26bd2344-7e8c-4eef-9ff0-755da520ebb0)
-** Confusion Matrix **
-![image](https://github.com/user-attachments/assets/16fef664-ae01-4b6f-ab40-b837c58754f8)
-![image](https://github.com/user-attachments/assets/c8b97eab-708f-459f-b7b1-dfcc4b0eb129)
-![image](https://github.com/user-attachments/assets/f6bd96a4-3f9c-41b5-922b-f953d206d351)
-
+**Confusion Matrix**
+![image](https://github.com/user-attachments/assets/16fef664-ae01-4b6f-ab40-b837c58754f8) ![image](https://github.com/user-attachments/assets/c8b97eab-708f-459f-b7b1-dfcc4b0eb129) ![image](https://github.com/user-attachments/assets/f6bd96a4-3f9c-41b5-922b-f953d206d351)
 
 ## Technologies Used
 - **Programming Language**: Python
